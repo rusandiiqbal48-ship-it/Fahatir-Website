@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fahatir — Profil & Biodata</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass:rgba(255,255,255,0.04)}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0; background:linear-gradient(180deg,#071029 0%, #081228 60%); color:#e6eef6; -webkit-font-smoothing:antialiased}
+    .container{max-width:1000px;margin:36px auto;padding:28px}
+    .card{background:linear-gradient(180deg,var(--card), #071021);border-radius:14px;padding:20px;box-shadow:0 8px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:110px;height:110px;border-radius:14px;flex-shrink:0;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:32px;color:#031023}
+    h1{margin:0;font-size:26px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px;margin-top:18px}
+    .section{margin-bottom:14px}
+    .badges{display:flex;gap:8px;flex-wrap:wrap}
+    .badge{background:var(--glass);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--muted);border:1px solid rgba(255,255,255,0.03)}
+
+    .about{line-height:1.6;color:#d6e6f6}
+    .skills{display:flex;flex-direction:column;gap:8px}
+    .skill{display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:8px}
+    .skill .bar{height:8px;background:rgba(255,255,255,0.06);border-radius:999px;width:60%;margin-left:12px;overflow:hidden}
+    .skill .bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#8b5cf6);}
+
+    .contacts{display:flex;flex-direction:column;gap:10px}
+    a.button{display:inline-block;padding:10px 12px;border-radius:10px;text-decoration:none;background:linear-gradient(90deg,#0ea5a5,#7c3aed);color:#021022;font-weight:600}
+    .meta{font-size:13px;color:var(--muted)}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.avatar{width:88px;height:88px;font-size:26px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="avatar">FY</div>
+        <div>
+          <h1>Fahatir Yaquta Alfaraby</h1>
+          <p class="lead">Siswa Teknik Komputer dan Jaringan — penggemar konfigurasi Mikrotik & pembuatan website sederhana</p>
+          <div style="margin-top:10px" class="badges">
+            <span class="badge">Mikrotik</span>
+            <span class="badge">HTML & CSS</span>
+            <span class="badge">JavaScript Dasar</span>
+            <span class="badge">Cisco Packet Tracer</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="grid">
+        <main>
+          <section class="section about">
+            <h2 style="margin:0 0 8px">Tentang Saya</h2>
+            <p>Halo! Saya <strong>Fahatir Yaquta Alfaraby</strong>, siswa Teknik Komputer dan Jaringan yang tertarik pada jaringan komputer dan web development. Saya telah mempelajari konfigurasi router Mikrotik, serta membuat website sederhana untuk proyek dan portofolio sekolah.</p>
+            <p>Di sini saya menampilkan biodata singkat, keterampilan yang saya kuasai, serta beberapa proyek kecil yang pernah saya buat. Silakan klik bagian kontak untuk informasi lebih lanjut.</p>
+          </section>
+
+          <section class="section">
+            <h3 style="margin-bottom:8px">Proyek & Pengalaman</h3>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:10px">
+                <strong>Konfigurasi Mikrotik - Jaringan Sekolah</strong>
+                <p class="meta" style="margin:6px 0 0">Menyiapkan NAT, firewall sederhana, dan akses hotspot untuk jaringan lab. (Praktikum sekolah)</p>
+              </div>
+
+              <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:10px">
+                <strong>Website Portofolio</strong>
+                <p class="meta" style="margin:6px 0 0">Membuat website portofolio sederhana menggunakan HTML, CSS, dan sedikit JavaScript untuk menampilkan proyek.</p>
+              </div>
+
+              <div style="background:rgba(255,255,255,0.02);padding:12px;border-radius:10px">
+                <strong>Game Edukasi (Scratch)</strong>
+                <p class="meta" style="margin:6px 0 0">Membuat game edukasi bertema membersihkan sampah luar angkasa—laporan dan dokumentasi tersedia.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <h3 style="margin-bottom:8px">Pendidikan</h3>
+            <p class="meta">Siswa Teknik Komputer dan Jaringan (SMK) — fokus pada jaringan & pemrograman dasar.</p>
+          </section>
+
+        </main>
+
+        <aside>
+          <div style="position:sticky;top:24px">
+            <div class="card" style="padding:14px;background:linear-gradient(180deg,#071728,#071220);">
+              <h4 style="margin-top:0">Biodata</h4>
+              <div class="contacts">
+                <div><strong>Nama:</strong> Fahatir Yaquta Alfaraby</div>
+                <div><strong>Profesi:</strong> Siswa — Teknik Komputer & Jaringan</div>
+                <div><strong>Keahlian:</strong> Mikrotik, HTML, CSS, JS, Cisco PT</div>
+                <div><strong>Kontak:</strong> <a href="tel:+6281649528965" style="color:inherit;text-decoration:underline">+62 816-4952-8965</a></div>
+                <div><strong>Email:</strong> <a href="mailto:youremail@example.com" style="color:inherit;text-decoration:underline">youremail@example.com</a></div>
+              </div>
+
+              <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+                <a class="button" href="#contact">Hubungi</a>
+                <a class="button" href="https://github.com/fahatir" target="_blank" rel="noopener">GitHub</a>
+              </div>
+
+            </div>
+
+            <div style="margin-top:12px;padding:12px;background:rgba(255,255,255,0.02);border-radius:10px">
+              <h4 style="margin:0 0 8px">Keterampilan</h4>
+              <div class="skills">
+                <div class="skill"><div style="font-weight:600">Mikrotik</div><div class="bar"><i style="width:86%"></i></div></div>
+                <div class="skill"><div style="font-weight:600">HTML & CSS</div><div class="bar"><i style="width:78%"></i></div></div>
+                <div class="skill"><div style="font-weight:600">JavaScript Dasar</div><div class="bar"><i style="width:62%"></i></div></div>
+                <div class="skill"><div style="font-weight:600">Cisco Packet Tracer</div><div class="bar"><i style="width:70%"></i></div></div>
+              </div>
+            </div>
+
+          </div>
+        </aside>
+      </div>
+
+      <section id="contact" style="margin-top:18px">
+        <div style="background:linear-gradient(180deg,rgba(6,182,212,0.06),rgba(124,58,237,0.04));padding:14px;border-radius:10px;display:flex;flex-direction:column;gap:8px">
+          <h3 style="margin:0">Kontak</h3>
+          <p class="meta" style="margin:0">Ingin bekerja sama atau menanyakan sesuatu? Hubungi lewat telepon atau email.</p>
+          <div style="display:flex;gap:10px;margin-top:8px;flex-wrap:wrap">
+            <a class="button" href="tel:+6281649528965">Telepon</a>
+            <a class="button" href="mailto:youremail@example.com">Email</a>
+            <a class="button" href="https://wa.me/6281649528965" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        Dibuat oleh Fahatir • GitHub Pages ready — cukup simpan file ini sebagai <code>index.html</code> dan deploy ke repository <code>fahatir.github.io</code>.
+      </footer>
+
+    </div>
+  </div>
+</body>
+</html>
